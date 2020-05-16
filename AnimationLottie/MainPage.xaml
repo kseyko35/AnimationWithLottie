@@ -10,6 +10,6 @@
         <forms:AnimationView Animation="history.json" AutoPlay="True" Loop="True"
                             HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
         
-        <!--animation.json in the solution right click and build action it should be java library in droid
+        <!--animation.json in the solution right click and build action it should be androidasset in droid
         animation.json in the solution right click and build action it should be bundle resources in ios-->
 </ContentPage>
