@@ -10,7 +10,7 @@ namespace AnimationLottie
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainPage();//Examples
         }
 
         protected override void OnStart()
