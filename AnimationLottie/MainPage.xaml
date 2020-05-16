@@ -7,7 +7,7 @@
              x:Class="AnimationLottie.MainPage">
 
        
-        <forms:AnimationView Animation="Animation.json" AutoPlay="True" Loop="True"
+        <forms:AnimationView Animation="history.json" AutoPlay="True" Loop="True"
                             HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
         
         <!--animation.json in the solution right click and build action it should be java library in droid

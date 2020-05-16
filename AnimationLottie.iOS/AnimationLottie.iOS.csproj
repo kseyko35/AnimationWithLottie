@@ -138,5 +138,6 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Animation.json" />
+    <BundleResource Include="history.json" />
   </ItemGroup>
 </Project>
