@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+              xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="AnimationLottie.MainPage">
+
+       
+        <forms:AnimationView Animation="Animation.json" AutoPlay="True" Loop="True"
+                            HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        
+        <!--animation.json in the solution right click and build action it should be java library in droid
+        animation.json in the solution right click and build action it should be bundle resources in ios-->
+</ContentPage>
