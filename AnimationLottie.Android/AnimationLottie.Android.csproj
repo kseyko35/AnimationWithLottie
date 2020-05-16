@@ -97,8 +97,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\final.json" />
     <AndroidAsset Include="Assets\Animation.json" />
+    <AndroidAsset Include="Assets\final.json" />
+    <AndroidAsset Include="Assets\history.json" />
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
